@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Yennic0302/memory/static/css/main.4bae32ef.css",
+    "main.js": "/Yennic0302/memory/static/js/main.daf7c7e5.js",
+    "static/js/787.775a9428.chunk.js": "/Yennic0302/memory/static/js/787.775a9428.chunk.js",
+    "static/media/card10.jpg": "/Yennic0302/memory/static/media/card10.07a7f76d0557836aff7f.jpg",
+    "static/media/card13.jpg": "/Yennic0302/memory/static/media/card13.b26ddc18ea36c531175d.jpg",
+    "static/media/card9.jpg": "/Yennic0302/memory/static/media/card9.a08595527e07e2cd00a4.jpg",
+    "static/media/card2.jpg": "/Yennic0302/memory/static/media/card2.0d1e9942f10a579599d3.jpg",
+    "static/media/card4.jpg": "/Yennic0302/memory/static/media/card4.34ab58c034b30a50d81a.jpg",
+    "static/media/card8.jpg": "/Yennic0302/memory/static/media/card8.9be013cf359e3fc1fc25.jpg",
+    "static/media/card3.jpg": "/Yennic0302/memory/static/media/card3.a62b71114ef818005dde.jpg",
+    "static/media/card15.jpg": "/Yennic0302/memory/static/media/card15.b7ab089f49bb72c6e502.jpg",
+    "static/media/card11.jpg": "/Yennic0302/memory/static/media/card11.a49cc666d8920cbaf011.jpg",
+    "static/media/card14.jpg": "/Yennic0302/memory/static/media/card14.97b8f4057cd2dc65fec7.jpg",
+    "static/media/card5.jpg": "/Yennic0302/memory/static/media/card5.0b55c72cfc9e7eb4fbbf.jpg",
+    "static/media/img-interrogatory.png": "/Yennic0302/memory/static/media/img-interrogatory.b046258912f65e7b420a.png",
+    "static/media/card7.jpg": "/Yennic0302/memory/static/media/card7.3493ce6188c3644b680d.jpg",
+    "static/media/card16.jpg": "/Yennic0302/memory/static/media/card16.2c4e74823e829b1380fa.jpg",
+    "static/media/card1.jpg": "/Yennic0302/memory/static/media/card1.c0ec2bd4f86952f1b701.jpg",
+    "static/media/card6.jpg": "/Yennic0302/memory/static/media/card6.26db242b959f02c08e35.jpg",
+    "static/media/card12.jpg": "/Yennic0302/memory/static/media/card12.4356c725a62575c9db23.jpg",
+    "index.html": "/Yennic0302/memory/index.html",
+    "main.4bae32ef.css.map": "/Yennic0302/memory/static/css/main.4bae32ef.css.map",
+    "main.daf7c7e5.js.map": "/Yennic0302/memory/static/js/main.daf7c7e5.js.map",
+    "787.775a9428.chunk.js.map": "/Yennic0302/memory/static/js/787.775a9428.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bae32ef.css",
+    "static/js/main.daf7c7e5.js"
+  ]
+}
