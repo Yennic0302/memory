@@ -1,0 +1,36 @@
+.cardG-bg{
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.cardG{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #111;
+    background: url(../imgs/assets/img-interrogatory.png) no-repeat center center/cover;
+    background-size: 30%;
+    z-index: 10;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+
+@keyframes correctC {
+    0%{
+        outline: 1px solid #258d19;
+        opacity: 1;
+    }100%{
+        outline: 10px solid #258d1900;
+        opacity: .5;
+    }
+}
+
+
+@keyframes error {
+    0%{
+        outline: 1px solid #ab0d2f;
+    }100%{
+        outline: 10px solid #ab0d2f00;
+    }
+}

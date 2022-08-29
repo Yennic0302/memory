@@ -1,0 +1,206 @@
+.bg-container{
+    position: absolute;
+    width: 100%;
+    height: 88vh;
+    background-color: transparent;
+}
+
+.cardImg1{
+    position: absolute;
+    height: 80px;
+    width: 50px;
+    background: url(../imgs/anime/card1.jpg) no-repeat center center/cover ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #222;
+    transform-style:preserve-3d;
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(10px)translateX(-400px);
+    animation: moveCard1 60s infinite 40s;
+}
+.cardImg2{
+    position: absolute;
+    height: 90px;
+    width: 60px;
+    background: url(../imgs/cities/card2.jpg) no-repeat center center/cover ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #222;
+    transform-style:preserve-3d;
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(350px)translateX(-400px);
+    animation: moveCard2 49s infinite;
+
+}
+.cardImg3{
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    background: url(../imgs/anime/card11.jpg) no-repeat center center/cover ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #222;
+    transform-style:preserve-3d;
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(600px)translateX(-400px);
+    animation: moveCard3 42s infinite;
+
+
+}
+.cardImg4{
+    position: absolute;
+    height: 70px;
+    width: 40px;
+    background: url(../imgs/anime/card6.jpg) no-repeat center center/cover ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #222;
+    transform-style:preserve-3d;
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(650px)translateX(-600px);
+    animation: moveCard4 59s infinite 10s;
+
+
+}
+.cardImg5{
+    position: absolute;
+    height: 75px;
+    width: 45px;
+    background: url(../imgs/cities/card14.jpg) no-repeat center center/cover ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #222;
+    transform-style:preserve-3d;
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(550px)translateX(-600px);
+    animation: moveCard5 52s infinite 30s;
+
+
+}
+.cardImg6{
+    position: absolute;
+    height: 100px;
+    width: 70px;
+    background: url(../imgs/anime/card8.jpg) no-repeat center center/cover ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #222;
+    transform-style:preserve-3d;
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(200px)translateX(-600px);
+    animation: moveCard6 49s infinite 20s ;
+
+
+}
+.cardImg7{
+    position: absolute;
+    height: 120px;
+    width: 80px;
+    background: url(../imgs/anime/card5.jpg) no-repeat center center/cover ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #222;
+    transform-style:preserve-3d;
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(200px)translateX(-600px);
+    animation: moveCard7 58s infinite 15;
+
+
+}
+.cardImg8{
+    position: absolute;
+    height: 90px;
+    width: 50px;
+    background: url(../imgs/cities/card4.jpg) no-repeat center center/cover ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #222;
+    transform-style:preserve-3d;
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(400px) translateX(-600px);
+    animation: moveCard8 53s infinite 20s;
+
+
+}
+
+.cardImg9{
+    position: absolute;
+    height: 60px;
+    width: 25px;
+    background: url(../imgs/anime/card14.jpg) no-repeat center center/cover ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #222;
+    transform-style:preserve-3d;
+    transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(460px)translateX(-600px);
+    animation: moveCard9 50s infinite 10s;
+
+
+}
+
+
+
+@keyframes moveCard1 {
+    0%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(10px) translateX(-400px);
+        opacity: 1;
+    }100%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(310px) translateX(600px);
+        opacity: 0;
+    }
+}
+@keyframes moveCard2 {
+    0%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(350px)translateX(-400px);
+        opacity: 1;
+    }100%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(700px) translateX(600px);
+        opacity: 0;
+    }
+}
+@keyframes moveCard3 {
+    0%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(600px) translateX(-600px);
+        opacity: 1;
+    }100%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(800px) translateX(600px);
+        opacity: 0;
+    }
+}
+@keyframes moveCard4 {
+    0%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(270px) translateX(-600px);
+        opacity: 1;
+    }100%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(570px) translateX(600px);
+        opacity: 0;
+    }
+}
+@keyframes moveCard5 {
+    0%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(400px) translateX(-600px);
+        opacity: 1;
+    }100%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(600px) translateX(600px);
+        opacity: 0;
+    }
+}
+@keyframes moveCard6 {
+    0%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(150px) translateX(-600px);
+        opacity: 1;
+    }100%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(500px) translateX(600px);
+        opacity: 0;
+    }
+}
+@keyframes moveCard7 {
+    0%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(20px) translateX(-500px);
+        opacity: 1;
+    }100%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(400px) translateX(600px);
+        opacity: 0;
+    }
+}
+@keyframes moveCard8 {
+    0%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(250px) translateX(-600px);
+        opacity: 1;
+    }100%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(550px) translateX(600px);
+        opacity: 0;
+    }
+}
+@keyframes moveCard9 {
+    0%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(460px) translateX(-600px);
+        opacity: 1;
+    }100%{
+        transform: rotateX(50deg) rotateY(20deg) rotateZ(-35deg) translateY(600px) translateX(600px);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,18 @@
+.timer{
+    color: #fff;
+}
+
+.time{
+    color: #e62625;
+    animation: ultimate 1s infinite;
+}
+
+@keyframes ultimate {
+    0%{
+        color: #e62625;
+        text-shadow: 1px 1px 1px #e62625;
+    }100%{
+        color: #111;
+        text-shadow: 1px 1px 50px  #e6262500;
+    }
+}
