@@ -69,7 +69,7 @@ export default function FormMemory({
                     defaultValue="anime"
                   >
                     <option value="anime">Anime</option>
-                    <option value="cities">Ciudades</option>
+                    <option value="cities">Cities</option>
                   </select>
                 </div>
                 <input className="btn-start" type="submit" value="Start" />
