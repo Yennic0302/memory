@@ -1,49 +1,55 @@
-.CardHI{
-    width: 100%;
-    display: flex;
-    color: #fff;
-    justify-content: space-evenly;
-    background-color: #333;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px #555;
-    margin: 15px;
-    align-items: center;
-    padding: 10px;
-    animation: blurOpacity 1s ease-out;
+.CardHI {
+  width: 100%;
+  display: flex;
+  color: #fff;
+  justify-content: space-evenly;
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #555;
+  margin: 15px;
+  align-items: center;
+  padding: 3px;
+  animation: blurOpacity 1s ease-out;
 }
 
-.game-condition{
-    display: flex;
-    width: 20%;
-    justify-content: space-evenly;
+.game-condition {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-evenly;
 }
 
-.main-options{
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
+.main-options {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.game-statistics{
-    width: 35%;
-    display: flex;
-    justify-content: space-evenly;
+.game-statistics {
+  width: 35%;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
 }
 
-.game-date{
-    width: 25%;
+.game-date {
+  align-items: center;
+
+  width: 25%;
 }
 
-p{
-    font-size: 1.4em;
-    margin: 5px;
+p {
+  font-size: 1.4em;
+  margin: 5px;
 }
 
 @keyframes blurOpacity {
-    0%{
-        opacity: 0;
-    }100%{
-        opacity: 1;
-    }
-    
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
