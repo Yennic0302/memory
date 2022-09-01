@@ -1,7 +1,19 @@
-.btn-history{
-    background-color: transparent;
-    border: none;
-    font-size: 25px;
-    margin-right: 50px;
-    color: #fff;
+.btn-history {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  margin-right: 50px;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .title-nav {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .title-nav {
+    font-size: 0.7rem;
+  }
 }

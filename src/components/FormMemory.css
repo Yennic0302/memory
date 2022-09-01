@@ -1,114 +1,169 @@
-.game-form-conatiner{
-    width: 100%;
-    z-index: 10;
+.game-form-conatiner {
+  width: 100%;
+  z-index: 10;
+  overflow: auto;
 }
 
-.main-container{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.main-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
-.game-description{
-    box-shadow: 1px 1px 5px #333;
-    border-radius: 5px;
+.game-description {
+  box-shadow: 1px 1px 5px #333;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 50px;
+  flex: 1;
+}
+
+.game-description p {
+  color: #fff;
+  font-size: 30px;
+}
+
+.form-container-rigth {
+  position: relative;
+  flex: 1;
+}
+
+.form-conatiner {
+  position: relative;
+  display: flex;
+  margin: auto;
+  margin-right: 100px;
+  margin-top: 10px;
+  width: 50%;
+  padding: 30px;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 3px #333;
+  background: linear-gradient(to right, #153159, #365b7722);
+}
+
+.form-conatiner h3 {
+  color: #fff;
+}
+
+.select-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form-selectG {
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  margin-top: 15px;
+  padding: 7px;
+  cursor: pointer;
+  width: 80%;
+  transition: all 0.5s;
+}
+
+.form-selectG:focus {
+  outline: none;
+}
+
+option {
+  background: #11111188;
+  color: #fff;
+  border-radius: 5px;
+}
+
+option:hover {
+  background-color: #111;
+}
+
+.btn-start {
+  margin: 25px;
+  border-radius: 5px;
+  border: 1px solid #222;
+  padding: 5px 20px;
+  background: #fff;
+  color: #222;
+  transition: all 0.5s;
+}
+
+.btn-start:hover {
+  background: #222;
+  color: #fff;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: #161616;
+  bottom: 0;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .game-description {
     margin: 20px;
-    padding: 50px;
-    flex: 1;
-}
-
-.game-description p{
-    color: #fff;
-    font-size: 30px;
-}
-
-.form-container-rigth{
-    position: relative;
-    flex: 1;
-}
-
-.form-conatiner{
-    position: relative;
-    display: flex;
-    margin: auto;
-    margin-right: 100px;
-    margin-top: 10px;
-    width: 40%;
     padding: 30px;
-    border-radius: 10px;
+  }
+
+  .game-description p {
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .form-conatiner {
+    margin: auto;
+    margin-right: 70px;
+    margin-top: 10px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .game-description p {
+    color: #fff;
+    font-size: 20px;
+  }
+  .main-container {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 1px 1px 3px #333; 
-    background: linear-gradient(to right, #153159, #365b7722) ;
+  }
+
+  .form-conatiner {
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+  }
 }
 
-.form-conatiner h3{
+@media (max-width: 400px) {
+  .game-description p {
     color: #fff;
-}
-
-
-.select-container{
-    display: flex;
+    font-size: 20px;
+  }
+  .main-container {
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
+  }
 
-.form-selectG{
-    border-radius: 5px;
-    background-color: transparent;
-    color: #fff;
-    outline: none;
-    border: 1px solid #fff;
-    margin-top: 15px;
-    padding: 7px;
-    cursor: pointer;
-    width: 80%;
-    transition: all .5s;
-}
-
-.form-selectG:focus{
-    outline: none;
-}
-
-option{
-    background: #11111188;
-    color: #fff;
-    border-radius: 5px;
-}
-
-option:hover{
-    background-color: #111;
-}
-
-.btn-start{
-    margin: 25px;
-    border-radius: 5px;
-    border: 1px solid #222;
-    padding: 5px 20px;
-    background: #fff;
-    color: #222;
-    transition: all .5s;
-}
-
-.btn-start:hover{
-    background: #222;
-    color: #fff;
-}
-
-
-.footer{
-    position: absolute;
-    width: 100%;
-    background-color: #161616;
-    bottom: 0;
-}
-
-.footer p{
-    text-align: center;
+  .form-conatiner {
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    height: 4;
     font-size: 15px;
-    color: #fff;
     padding: 10px;
+    height: 300px;
+    margin-bottom: 100px;
+  }
 }

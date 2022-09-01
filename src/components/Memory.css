@@ -1,57 +1,127 @@
-
-.game-conatiner{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-    padding: 30px;
-    justify-content: space-around;
-    animation: showHistory .5s;
-    z-index: 10;
+.game-conatiner {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  justify-content: space-evenly;
+  animation: showHistory 0.5s;
+  z-index: 10;
 }
 
-.cards-memory-container-ease{
-    display: grid;
-    max-width: 500px;
-    width: 100%;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
-    gap: 5px;
+.cards-memory-container-ease {
+  display: grid;
+  max-width: 50%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
 }
 
-.cards-memory-container-medium{
-    display: grid;
-    max-width: 50%;
-    width: 100%;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(4,1fr);
-    gap: 5px;
+.cards-memory-container-medium {
+  display: grid;
+  max-width: 70%;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
 }
-.cards-memory-container-hart{
-    display: grid;
-    max-width: 70%;
-    width: 100%;
-    grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(4,1fr);
-    gap: 5px;
+.cards-memory-container-hart {
+  display: grid;
+  max-width: 70%;
+  width: 100%;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
 }
 
-.options-game{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
+.options-game {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
 }
-.restart{
-    align-content: flex-end;
-    width: 50px;
+.restart {
+  align-content: flex-end;
+  width: 50px;
 }
 
 @keyframes showGame {
-    0%{
-        opacity: 0;
-    }100%{
-        opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .cards-memory-container-ease {
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 600px;
+    max-height: 700px;
+  }
+  .cards-memory-container-medium {
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 600px;
+    max-height: 700px;
+  }
+  .cards-memory-container-hart {
+    min-width: 300px;
+    max-width: 500px;
+    min-height: 600px;
+    max-height: 700px;
+  }
+}
+
+@media (max-width: 650px) {
+  .options-game {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+  }
+  .stast-game {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .cards-memory-container-ease {
+    min-height: 450px;
+    max-height: 700px;
+  }
+  .cards-memory-container-medium {
+    min-height: 450px;
+    max-height: 700px;
+  }
+  .cards-memory-container-hart {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+  .options-game {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .cards-memory-container-ease {
+    min-width: 250px;
+    max-width: 500px;
+  }
+  .cards-memory-container-medium {
+    min-width: 250px;
+    max-width: 500px;
+  }
+
+  .cards-memory-container-hart {
+    min-width: 250px;
+    max-width: 500px;
+  }
 }

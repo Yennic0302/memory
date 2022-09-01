@@ -1,23 +1,26 @@
-.score-container{
-    color: #fff;
+.score-container {
+  margin: 10px;
+  color: #fff;
 }
 
 @keyframes incorrect {
-    0%{
-        color: #e62625;
-        text-shadow: 1px 1px 1px #e62625;
-    }100%{
-        color: #111;
-        text-shadow: 1px 1px 50px  #e6262500;
-    }
+  0% {
+    color: #e62625;
+    text-shadow: 1px 1px 1px #e62625;
+  }
+  100% {
+    color: #111;
+    text-shadow: 1px 1px 50px #e6262500;
+  }
 }
 
 @keyframes correct {
-    0%{
-        color: #258d19;
-        text-shadow: 1px 1px 1px #258d19;
-    }100%{
-        color: #111;
-        text-shadow: 1px 1px 50px  #258d1900;
-    }
+  0% {
+    color: #258d19;
+    text-shadow: 1px 1px 1px #258d19;
+  }
+  100% {
+    color: #111;
+    text-shadow: 1px 1px 50px #258d1900;
+  }
 }
