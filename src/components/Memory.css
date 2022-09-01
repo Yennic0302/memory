@@ -104,7 +104,7 @@
   }
   .cards-memory-container-hart {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
   }
   .options-game {
     height: 100px;
