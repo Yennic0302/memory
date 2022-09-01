@@ -1,7 +1,6 @@
 .game-form-conatiner {
   width: 100%;
   z-index: 10;
-  overflow: auto;
 }
 
 .main-container {
@@ -149,21 +148,49 @@ option:hover {
 }
 
 @media (max-width: 400px) {
+  .game-description {
+    box-shadow: 1px 1px 5px #333;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+    flex: 1;
+  }
   .game-description p {
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
   }
   .main-container {
     flex-direction: column;
   }
 
   .form-conatiner {
-    margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 60%;
-    height: 4;
+    min-height: 280px;
+    max-height: 400px;
     font-size: 15px;
     padding: 10px;
-    margin-bottom: 100px;
+  }
+
+  .btn-start {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .game-description p {
+    color: #fff;
+    font-size: 15px;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+
+  .form-conatiner {
+    height: 280px;
+  }
+
+  .btn-start {
+    padding: 10px;
   }
 }
